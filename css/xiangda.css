@@ -24,13 +24,13 @@ section
 	display: table;
 	width: 100%;
 	height: auto;
-	background-image: url(../img/xkbj.jpg);
 	text-align: center;
 }
 
 
-
-section.meishi{background-image: url(../img/hsbj01.jpeg);}
+section.zhuye{background-image: url(../img/xkbj.jpg);background-attachment: fixed;background-repeat: none}
+section.juanwei{background-image: url(../img/hsbj01.jpeg);background-attachment: fixed;background-repeat: none}
+section.yiyu{background-image: url(../img/xkbj.jpg);background-attachment: fixed;background-repeat: none}
 
 h1
 {
@@ -53,16 +53,19 @@ h2
 	color: #FFFFFF;	
 }
 
-#main
+p{	text-indent: 2em;}
+
+.main
 {
 	display: block;
-	text-align: center;
+	text-align: left;
 	color: #FFFFFF;	
 	clear: both;
 	margin: auto auto 3% auto;
+	max-width: 50%;
 }
-*#table{display: table;padding: 3%;}
-#tablerow{display: table-row;width: 100%;}
+#table{display: table;padding: 3%;}
+#tablerow{display: table-row;width: 80%;}
 #left
 {
 	display: table-cell;
@@ -119,27 +122,46 @@ nav ul li a:hover,nav ul li a:active{background-color:#CC3333 ;}/*鼠标移动�
 
 #fenlei ul
 {
+	float: left;
 	position: fixed;
-	right: 1%;
 	list-style-type: none;
-	line-height: 1;
-	margin: 0%;
+	line-height: 2;
 	padding: 10px 0px;
 	text-align: center;
-}
-
-#fenlei ul li
-{
-	display: block;
-	text-align: center;
+	z-index: 10;
 }
 
 #fenlei a
 {
 	color: #FFFFFF;	
 	text-decoration: none;
-	line-height: 1;
-	padding: 10px 0;
-	margin: 0;
 }
 #fenlei ul li a:hover,#fenlei ul li a:active{background-color:#CC3333 ;padding: 0px 0px;}/*鼠标移动在连接上*/
+
+.box{width: 1200px}
+.tupian{height: 550px;position: relative;}
+.tupian ul{text-decoration: noen;list-style-type: none;}
+.tupian li
+{
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+.tupian li img
+{
+	width: 600px;
+	height: 400px;
+}
+
+.jiantou{opacity: 0;}
+.jiantou a
+{
+	width: 70px;
+	height: 70px;
+	display: block;
+	position: absolute;
+	top: 32%;
+	z-index: 100;
+}
+.jiantou .prev{left: 90px;}
+.jiantou .next{right: 10px;}
