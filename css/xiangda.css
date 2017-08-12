@@ -165,3 +165,5 @@ nav ul li a:hover,nav ul li a:active{background-color:#CC3333 ;}/*鼠标移动�
 }
 .jiantou .prev{left: 90px;}
 .jiantou .next{right: 10px;}
+
+.comment{width: 800px;position: relative;left: 17%;}
