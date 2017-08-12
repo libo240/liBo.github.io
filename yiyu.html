@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<link type="text/css" href="css/xiangda.css" rel="stylesheet">
+		<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="js/Valine.min.js"></script>
 	</head>
 	<body>
 		<header><img src="img/logo.png" alt="xiangdalogo"></header>
@@ -10,15 +12,12 @@
 		<nav>
 			<ul>
 				<li><a href="index.html" target="_parent">主页</a></li>
-				<li><a href="" target="_parent">阑珊</a></li>
 				<li><a href="juanwei.html" target="_parent">隽味</a></li>
 				<li><a href="yiyu.html" target="_parent">一隅</a></li>
-				<li><a href="" target="_parent">拾趣</a></li>
 			</ul>
 		</nav>
 		
 		<section class="yiyu">
-			<div>
 			<div class="title">
 				<h1>一隅</h1>
 				<h2>曾经沧海难为水，除却巫山不是云</h2><hr  />
@@ -26,7 +25,7 @@
 			<div class="main"><p>不知不觉中即将离开我的学校，而湘大的每个角落都深深地落在了我的记忆里。
 				回顾大学时光，记忆中的湘大是那般朴实生动。每每提起湘大时，心中总有一种别样的情愫暧昧难解。
 				可以发出回答的三拱门，八十三米的毛嗲嗲，声嘶力竭加油的南苑球场，七点已经被坐满的图书馆自习室，学活十二点的钟声，
-				逸夫楼、信息楼、工科楼、物理楼……这里有太多太多的回忆，每一隅都有我数不尽的回忆和故事……
+				逸夫楼、信息楼、工科楼、物理楼……这里每一隅都有我数不尽的回忆和故事……
 			</p></div>
 				<div class="box">
 				<div class="tupian">
@@ -53,8 +52,17 @@
 				</div>
 				</div>
 				</div>
-			
-			</div>
+				<div class="comment"></div>
+				<script>
+					new Valine({
+						av: AV,
+						el: '.comment', //
+						app_id: 'Dg1EgHcy9SxjK7welgYrm9jx-gzGzoHsz',
+						app_key: 'n4Lu1Ft6X3TSWY2dbxM0242B',
+						placeholder: '留下你在湘大那一角的故事吧' 
+						});
+    </script>
+
 		</section>
 		
 		<footer>
