@@ -3,8 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link type="text/css" href="css/xiangda.css" rel="stylesheet">
-		<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-   		<script src="js/Valine.min.js"></script>
+
 	</head>
 	<body>
 		<header><img src="img/logo.png" alt="xiangdalogo"></header>
@@ -53,14 +52,16 @@
 				</div>
 				</div>
 				<div class="comment"></div>
-				<script>
-					new Valine({
-						av: AV,
-						el: '.comment', //
-						app_id: 'Dg1EgHcy9SxjK7welgYrm9jx-gzGzoHsz',
-						app_key: 'n4Lu1Ft6X3TSWY2dbxM0242B',
-						placeholder: '留下你在湘大那一角的故事吧' 
-						});
+	<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+   	<script src="js/Valine.min.js"></script>
+	<script>
+		new Valine({
+		av: AV,
+		el: '.comment', //
+		app_id: 'Dg1EgHcy9SxjK7welgYrm9jx-gzGzoHsz',
+		app_key: 'n4Lu1Ft6X3TSWY2dbxM0242B',
+		placeholder: '留下你在湘大那一角的故事吧' 
+		});
     </script>
 
 		</section>
